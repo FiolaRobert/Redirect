@@ -345,9 +345,7 @@ function deleteItem(i){
     //    console.log(item);
         var numRows= document.getElementById('tables').lastElementChild.lastElementChild.id;
         if(numRows>0)
-        {
-
-            if(data[asin].root.length>1)
+        { if(data[asin].root.length>1)
             {
                 data[asin].root.splice(root,1);
             }
