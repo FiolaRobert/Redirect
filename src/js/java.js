@@ -274,6 +274,7 @@ function addItem(asin=null){
     else{
         log('item not added',asin);
     }
+     window.location.assign('#asin');
     
 }
 /* create dropdown datalist for input-asin */

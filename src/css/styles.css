@@ -16,11 +16,8 @@ html {
     line-height: 1rem;
 }
 body {
-  /* Margin bottom by footer height */
-    
+  /* Margin bottom by footer height */  
   margin-bottom: 60px;
-}
-.body{
    margin-top: 60px; 
 }
 /*colors
@@ -80,24 +77,28 @@ a{
     text-decoration: none;
     color:#128ec3;
     cursor:pointer;
-    padding: 0 3px;
+    padding: 2px 5px;
 }
-a:hover{
+a:not(.navbar-brand):hover{
     text-decoration: none !important;
     background-color: rgba(0,0,0,0.1);
     border-radius: 20%;
-     cursor:pointer;
+     
 }
 
+/*
 label{
     padding: 2px;
     margin: 1px;
     
 }
+*/
+/*
 div{
     margin: 0;
     padding:0;
 }
+*/
 
 
 #tables{
@@ -174,15 +175,21 @@ input{
 
 /*MODAL*/
 
+/*
 .modal table{
     width:90%;
 }
+*/
+/*
 #modal-table input{
     width:100%;
 }
+*/
+/*
 .root{
     border: 
 }
+*/
 .modal-backdrop {
    background-color: white;
     opacity:0.95 !important;
